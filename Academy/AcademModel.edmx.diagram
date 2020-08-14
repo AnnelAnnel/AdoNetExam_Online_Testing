@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="bd269200075445fd8735aad3043a5438" Name="Diagram1">
+        <EntityTypeShape EntityType="AcademyModel.Answers" Width="1.5" PointX="6" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.Exams" Width="1.5" PointX="3" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.Groups" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.Marks" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.Questions" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.REQ" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.Roles" Width="1.5" PointX="0.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.RSG" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.Student_Answer" Width="1.5" PointX="8.25" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.Subjects" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AcademyModel.Users" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <AssociationConnector Association="AcademyModel.FK__Answers__Questio__267ABA7A" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__Student_A__Answe__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__Exams__SubjectId__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__Marks__ExamId__2E1BDC42" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__REQ__ExamId__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__Student_A__ExamI__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__RSG__GroupId__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__Marks__StudentId__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__Marks__SubjectId__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__REQ__QuestionId__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__Users__RoleId__1A14E395" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__RSG__SubjectId__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="AcademyModel.FK__Student_A__UserI__31EC6D26" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
